@@ -13,6 +13,42 @@
   }
 }
 
+.allContent {
+  margin: 10px
+}
+
+.header {
+  background-color: rgb(25, 169, 236);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-weight: thin;
+}
+
+.article {
+  background-color: white;
+  justify-content: center;
+  display: flex;
+  color: rgb(58, 66, 66);
+  margin-left: 10px;
+}
+
+.story {
+  background-color: olivedrab;
+  justify-content: center;
+  /* display: flex; */
+  margin: 10px;
+}
+
+.stats {
+  background-color: orange;
+  height: 25px;
+  color: white;
+  font-weight: bolder;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
